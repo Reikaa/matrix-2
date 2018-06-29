@@ -18,7 +18,7 @@ public:
     class DenseShadowMatrix {
     private:
         size_t Rows,Columns;
-        T *Data;
+        T *Data; //this will be a pointer to a location in GPU Malloc eventually.
     public:
 
         DenseShadowMatrix();
