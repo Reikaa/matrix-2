@@ -20,7 +20,6 @@ public:
         size_t Rows,Columns;
         T *Data; //this will be a pointer to a location in GPU Malloc eventually.
     public:
-
         DenseShadowMatrix();
         DenseShadowMatrix(size_t _R, size_t _C);
         DenseShadowMatrix(const DenseShadowMatrix &_DSM);  //copy constructor
