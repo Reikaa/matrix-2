@@ -20,7 +20,6 @@ public:
         size_t Rows,Columns;
         T *Data;
     public:
-
         DenseShadowMatrix();
         DenseShadowMatrix(size_t _R, size_t _C);
         DenseShadowMatrix(const DenseShadowMatrix &_DSM);  //copy constructor
